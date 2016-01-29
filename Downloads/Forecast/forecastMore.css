@@ -1,0 +1,329 @@
+
+body {
+    background: url('http://cs-server.usc.edu:45678/hw/hw8/images/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.form-group.required label.name:after {
+    content: "*";
+    color: red;
+}
+.panel-transparent {
+    background-color: rgba(100, 100, 100, 0.3);
+    padding-top: 10px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0;
+}
+
+.paddingLeft {
+   padding-left: 0px !important;
+   padding-right: 1px !important;
+}
+
+.paddingCenter {
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+}
+
+.paddingRight {
+    padding-left: 5px !important;
+    padding-right: 0px !important;
+
+} 
+
+.paddingButton, .hr, .tab {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    
+}
+
+
+
+div.button {
+    float:right;
+}
+
+.name, .radio-inline {
+    color: white;
+}
+
+label.error {
+    color: red;
+}
+
+#button {
+    position: relative;
+    float:right;
+    line-height: 300%;
+    top: 20px;
+}
+
+#link {
+    position: fixed;
+    float:right;
+    top: 30px;
+}
+
+.result {
+    display: none;
+}
+
+.nav {
+    font-size: 80%;
+}
+
+.nav li a {
+    background-color: white;
+}
+
+.nav li.active a {
+    background-color: steelblue !important;
+    color: white;
+}
+
+.header1 {
+    background-color: lightcoral !important;
+}
+
+.titleImg {
+    margin-top: 5% !important;
+    width: 150px;
+    height: 140px;
+}
+
+#top {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#mid {
+    text-align:center;
+    color: white;
+    font-size: 500%;
+    margin-bottom: 0;
+}
+
+#bot {
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 350%;
+}
+
+sup.tab1Sup {
+    font-size: 30%;
+    vertical-align: super;
+}
+
+.mapContainer {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#map {
+    border-style: solid;
+    border-color: white;
+}
+
+#tab2 th {
+    background-color: steelblue !important;
+    color: white !important;
+    text-align: center;
+}
+
+#tab2 td {
+    text-align: center;
+    
+}
+
+.tab-content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#now {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tag2Img {
+    width: 40px;
+    height: 40px;
+}
+
+.glyphicon-plus {
+    color: steelblue;
+}
+
+.hideRow ul {
+    width: 100%; 
+    display: table;
+}
+            
+.hideRow li {
+    display: table-cell;
+    width: 25%; 
+    text-align: center;
+    white-space: nowrap;
+}
+
+ul.list1{
+    background-color: white;
+}
+.hideRow {
+    background-color: lightgray;
+    display: none;
+}
+
+.emptyRow{
+    background-color: white;
+    display: none;
+}
+
+.normalRow{
+    background-color: white;
+}
+
+#tab2 th, #tab2 td {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.hideDiv {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table#tab2 > thead > tr > th {
+    vertical-align: top;
+}
+
+.tab3 {
+    color: white;
+    text-align: center;
+    font-size: 75%;
+    background-color: transparent;
+}
+
+.tab3Img {
+    width: 50px;
+    height: 50px;
+}
+
+.tab3Temp {
+    font-size: 250%;
+    line-height: 200%
+}
+
+.day1{
+    background-color: steelblue;
+}
+
+.day2 {
+    background-color: red;
+}
+
+.day3 {
+    background-color: sandybrown;
+}
+
+.day4 {
+    background-color: darkkhaki;
+}
+
+.day5 {
+    background-color: mediumpurple;
+}
+
+.day6 {
+    background-color: lightpink;
+}
+
+.day7 {
+    background-color: mediumvioletred;
+}
+
+.tab3Sup {
+    vertical-align: top;
+}
+
+#nextWeek {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tab3Out {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+.tab3Day {
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 992px) {
+    .tab3 {
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .tab3Day {
+        border-radius: 30px;
+    }
+    .tab3Out {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+.modalHeader {
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 768px) {
+    .modalSummary, .modalText, .modalHeader {
+        font-weight: 500;
+    }
+}
+
+.modal-body {
+    text-align: center;
+    font-weight: 300;
+}
+
+.modalImg {
+    width: 100px;
+    height: 100px;
+}
+
+.modalInner {
+    color: orange;
+}
+
+.modalSummary {
+    font-size: 150%;
+    line-height: 100%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.modalText {
+    font-size: 120%;
+}
+
+.modalBlock {
+    line-height: 175%;
+}
+
+.btn-facebook {
+    float: right;
+    float: top;
+    height: 30px;
+}
